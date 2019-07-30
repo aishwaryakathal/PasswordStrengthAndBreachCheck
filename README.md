@@ -11,4 +11,4 @@ Weak: If password is at least 8 character long, but Either Number or special cha
 Medium: If password is at least 8 character long, but Either Number or special character or upper character, 1 of them is missing.
 Strong: when is 8 character long, contains at least one number, atleast one upper character and at least 1 special character.
 Step 6: Now, to test the different scenarios, Go to folder PasswordStrengthAndBreachCheck>StrengthAndBreachTest open StrengthAndBreachTest.sln passwordCheck.sln in visual studio (use visual studio 2019, with netcoreapp2.1)
-Step 7: Build the solution, on successful build go to the 'Test' tab on the top of the visual studio and click on run all tests. On comletion it will show '8 tests passed'
+Step 7: Build the solution, on successful build go to the 'Test' tab on the top of the visual studio and click on run all tests. On completion it will show '8 tests passed'
