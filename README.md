@@ -4,9 +4,9 @@ Step 2: After downloading the solution to your local system, go to folder Passwo
 Step 3: Build the solution, on successful build run the PasswordCheckAPI (don't close the browser)
 Step 4: Go to folder PasswordStrengthAndBreachCheck>ConsolePasswordCheck open ConsolePasswordCheck.sln in visual studio (use visual studio 2019, with netcoreapp2.1)
 Step 5: Build the solution, on successful build run the ConsolePasswordCheck, A console screen will open. Enter Username press enter and then Enter password you want to check the strength for. This Console app will return back the strength of the password in Blank, Short, Very Weak, Weak, Medium, Strong.
-Blank: If password is blank
-Short: If Password length is less than 8
-Very Weak: If password is at least 8 character long but it contains no number, no upper character and no special charater
+Blank: If password is blank.
+Short: If Password length is less than 8.
+Very Weak: If password is at least 8 character long but it contains no number, no upper character and no special charater.
 Weak: If password is at least 8 character long, but Either Number or special character or upper character, 2 of them is missing.
 Medium: If password is at least 8 character long, but Either Number or special character or upper character, 1 of them is missing.
 Strong: when is 8 character long, contains at least one number, atleast one upper character and at least 1 special character.
