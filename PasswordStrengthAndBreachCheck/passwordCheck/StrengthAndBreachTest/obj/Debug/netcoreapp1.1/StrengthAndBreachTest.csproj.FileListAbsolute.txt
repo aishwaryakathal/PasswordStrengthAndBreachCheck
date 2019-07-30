@@ -13,3 +13,5 @@ C:\Users\Atiq\Desktop\projects\passwordCheck\StrengthAndBreachTest\obj\Debug\net
 C:\Users\Atiq\Desktop\projects\passwordCheck\StrengthAndBreachTest\obj\Debug\netcoreapp1.1\StrengthAndBreachTest.pdb
 C:\Users\Atiq\Desktop\projects\passwordCheck\StrengthAndBreachTest\bin\Debug\netcoreapp1.1\PasswordCheckAPI.dll
 C:\Users\Atiq\Desktop\projects\passwordCheck\StrengthAndBreachTest\bin\Debug\netcoreapp1.1\PasswordCheckAPI.pdb
+C:\Users\aishw\Desktop\Projects\PasswordStrengthAndBreachCheck\passwordCheck\StrengthAndBreachTest\obj\Debug\netcoreapp1.1\StrengthAndBreachTest.dll
+C:\Users\aishw\Desktop\Projects\PasswordStrengthAndBreachCheck\passwordCheck\StrengthAndBreachTest\obj\Debug\netcoreapp1.1\StrengthAndBreachTest.pdb

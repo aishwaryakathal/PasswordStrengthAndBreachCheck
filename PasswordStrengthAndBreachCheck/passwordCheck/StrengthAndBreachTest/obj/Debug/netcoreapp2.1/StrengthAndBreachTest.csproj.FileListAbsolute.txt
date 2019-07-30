@@ -1,0 +1,17 @@
+C:\Users\aishw\Desktop\Projects\PasswordStrengthAndBreachCheck\passwordCheck\StrengthAndBreachTest\bin\Debug\netcoreapp2.1\Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.dll
+C:\Users\aishw\Desktop\Projects\PasswordStrengthAndBreachCheck\passwordCheck\StrengthAndBreachTest\bin\Debug\netcoreapp2.1\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.Interface.dll
+C:\Users\aishw\Desktop\Projects\PasswordStrengthAndBreachCheck\passwordCheck\StrengthAndBreachTest\bin\Debug\netcoreapp2.1\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.dll
+C:\Users\aishw\Desktop\Projects\PasswordStrengthAndBreachCheck\passwordCheck\StrengthAndBreachTest\bin\Debug\netcoreapp2.1\StrengthAndBreachTest.deps.json
+C:\Users\aishw\Desktop\Projects\PasswordStrengthAndBreachCheck\passwordCheck\StrengthAndBreachTest\bin\Debug\netcoreapp2.1\StrengthAndBreachTest.runtimeconfig.json
+C:\Users\aishw\Desktop\Projects\PasswordStrengthAndBreachCheck\passwordCheck\StrengthAndBreachTest\bin\Debug\netcoreapp2.1\StrengthAndBreachTest.runtimeconfig.dev.json
+C:\Users\aishw\Desktop\Projects\PasswordStrengthAndBreachCheck\passwordCheck\StrengthAndBreachTest\bin\Debug\netcoreapp2.1\StrengthAndBreachTest.dll
+C:\Users\aishw\Desktop\Projects\PasswordStrengthAndBreachCheck\passwordCheck\StrengthAndBreachTest\bin\Debug\netcoreapp2.1\StrengthAndBreachTest.pdb
+C:\Users\aishw\Desktop\Projects\PasswordStrengthAndBreachCheck\passwordCheck\StrengthAndBreachTest\bin\Debug\netcoreapp2.1\PasswordCheckAPI.dll
+C:\Users\aishw\Desktop\Projects\PasswordStrengthAndBreachCheck\passwordCheck\StrengthAndBreachTest\bin\Debug\netcoreapp2.1\PasswordCheckAPI.pdb
+C:\Users\aishw\Desktop\Projects\PasswordStrengthAndBreachCheck\passwordCheck\StrengthAndBreachTest\obj\Debug\netcoreapp2.1\StrengthAndBreachTest.csprojAssemblyReference.cache
+C:\Users\aishw\Desktop\Projects\PasswordStrengthAndBreachCheck\passwordCheck\StrengthAndBreachTest\obj\Debug\netcoreapp2.1\StrengthAndBreachTest.csproj.CoreCompileInputs.cache
+C:\Users\aishw\Desktop\Projects\PasswordStrengthAndBreachCheck\passwordCheck\StrengthAndBreachTest\obj\Debug\netcoreapp2.1\StrengthAndBreachTest.AssemblyInfoInputs.cache
+C:\Users\aishw\Desktop\Projects\PasswordStrengthAndBreachCheck\passwordCheck\StrengthAndBreachTest\obj\Debug\netcoreapp2.1\StrengthAndBreachTest.AssemblyInfo.cs
+C:\Users\aishw\Desktop\Projects\PasswordStrengthAndBreachCheck\passwordCheck\StrengthAndBreachTest\obj\Debug\netcoreapp2.1\StrengthAndBreachTest.csproj.CopyComplete
+C:\Users\aishw\Desktop\Projects\PasswordStrengthAndBreachCheck\passwordCheck\StrengthAndBreachTest\obj\Debug\netcoreapp2.1\StrengthAndBreachTest.dll
+C:\Users\aishw\Desktop\Projects\PasswordStrengthAndBreachCheck\passwordCheck\StrengthAndBreachTest\obj\Debug\netcoreapp2.1\StrengthAndBreachTest.pdb

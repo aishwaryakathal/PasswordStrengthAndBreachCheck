@@ -1,0 +1,144 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\aishw\\Desktop\\Projects\\PasswordStrengthAndBreachCheck\\passwordCheck\\StrengthAndBreachTest\\StrengthAndBreachTest.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\aishw\\Desktop\\Projects\\PasswordStrengthAndBreachCheck\\passwordCheck\\passwordCheck\\PasswordCheckAPI.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\aishw\\Desktop\\Projects\\PasswordStrengthAndBreachCheck\\passwordCheck\\passwordCheck\\PasswordCheckAPI.csproj",
+        "projectName": "PasswordCheckAPI",
+        "projectPath": "C:\\Users\\aishw\\Desktop\\Projects\\PasswordStrengthAndBreachCheck\\passwordCheck\\passwordCheck\\PasswordCheckAPI.csproj",
+        "packagesPath": "C:\\Users\\aishw\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\aishw\\Desktop\\Projects\\PasswordStrengthAndBreachCheck\\passwordCheck\\passwordCheck\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\aishw\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp2.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp2.1": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp2.1": {
+          "dependencies": {
+            "Microsoft.ApplicationInsights.AspNetCore": {
+              "target": "Package",
+              "version": "[2.0.0, )"
+            },
+            "Microsoft.AspNetCore": {
+              "target": "Package",
+              "version": "[1.1.2, )"
+            },
+            "Microsoft.AspNetCore.Mvc": {
+              "target": "Package",
+              "version": "[1.1.3, )"
+            },
+            "Microsoft.Extensions.Logging.Debug": {
+              "target": "Package",
+              "version": "[1.1.2, )"
+            },
+            "Microsoft.NETCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.1.0, )",
+              "autoReferenced": true
+            }
+          },
+          "imports": [
+            "net461"
+          ],
+          "assetTargetFallback": true,
+          "warn": true
+        }
+      }
+    },
+    "C:\\Users\\aishw\\Desktop\\Projects\\PasswordStrengthAndBreachCheck\\passwordCheck\\StrengthAndBreachTest\\StrengthAndBreachTest.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\aishw\\Desktop\\Projects\\PasswordStrengthAndBreachCheck\\passwordCheck\\StrengthAndBreachTest\\StrengthAndBreachTest.csproj",
+        "projectName": "StrengthAndBreachTest",
+        "projectPath": "C:\\Users\\aishw\\Desktop\\Projects\\PasswordStrengthAndBreachCheck\\passwordCheck\\StrengthAndBreachTest\\StrengthAndBreachTest.csproj",
+        "packagesPath": "C:\\Users\\aishw\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\aishw\\Desktop\\Projects\\PasswordStrengthAndBreachCheck\\passwordCheck\\StrengthAndBreachTest\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\aishw\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp2.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp2.1": {
+            "projectReferences": {
+              "C:\\Users\\aishw\\Desktop\\Projects\\PasswordStrengthAndBreachCheck\\passwordCheck\\passwordCheck\\PasswordCheckAPI.csproj": {
+                "projectPath": "C:\\Users\\aishw\\Desktop\\Projects\\PasswordStrengthAndBreachCheck\\passwordCheck\\passwordCheck\\PasswordCheckAPI.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp2.1": {
+          "dependencies": {
+            "MSTest.TestAdapter": {
+              "target": "Package",
+              "version": "[1.1.17, )"
+            },
+            "MSTest.TestFramework": {
+              "target": "Package",
+              "version": "[1.1.17, )"
+            },
+            "Microsoft.NET.Test.Sdk": {
+              "target": "Package",
+              "version": "[15.3.0-preview-20170425-07, )"
+            },
+            "Microsoft.NETCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.1.0, )",
+              "autoReferenced": true
+            }
+          },
+          "imports": [
+            "net461"
+          ],
+          "assetTargetFallback": true,
+          "warn": true
+        }
+      }
+    }
+  }
+}
