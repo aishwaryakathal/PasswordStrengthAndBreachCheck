@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
@@ -24,6 +24,7 @@ namespace passwordCheck.Controllers
         string strengthShow;
         string breachShow;
         int score = 0;
+        bool isShort;
         private static readonly HttpClient _httpClient = new HttpClient();
         private static readonly char[] _newLinesCheck = new[] { '\n', '\r' };
         private static readonly char[] _colonCheck = new[] { ':' };
@@ -77,30 +78,39 @@ namespace passwordCheck.Controllers
         {
             //if conditions based on the length of the password
             if (password.Length < 1)
-                score = 0;
+            {
+                score = 0;               
+            }                
 
-            if (password.Length < 6 && password.Length > 0)
+            if (password.Length > 0 && password.Length < 8)
+            {
                 score = 1;
-
-            if (password.Length >= 6 && password.Length < 8)
-                score = 1;
+                isShort = true; //Check the length is shorter than 8
+            }
+                
 
             if (password.Length >= 8)
+            {
                 score = 2;
+                isShort = false;
+            }
+                
+            if (isShort==false)
+            {
+                //check if password have at least 1 numerical number
+                if (Regex.IsMatch(password, @"[\d]", RegexOptions.ECMAScript))
+                    score++;
 
-            //check if password have at least 1 numerical number
-            if (Regex.IsMatch(password, @"[\d]", RegexOptions.ECMAScript))
-                score++;
+                //check if password have at least 1 lower character and 1 upper character
+                if (Regex.IsMatch(password, @"[a-z]", RegexOptions.ECMAScript) &&
+                Regex.IsMatch(password, @"[A-Z]", RegexOptions.ECMAScript))
+                    score++;
 
-            //check if password have at least 1 lower character and 1 upper character
-            if (Regex.IsMatch(password, @"[a-z]", RegexOptions.ECMAScript) &&
-            Regex.IsMatch(password, @"[A-Z]", RegexOptions.ECMAScript))
-                score++;
-
-            //check if the password have at least one special character
-            if (Regex.IsMatch(password, @"[!,@,#,$,%,^,&,*,?,_,~,-,£,(,)]",RegexOptions.ECMAScript))
-                score++;
-
+                //check if the password have at least one special character
+                if (Regex.IsMatch(password, @"[!,@,#,$,%,^,&,*,?,_,~,-,£,(,)]", RegexOptions.ECMAScript))
+                    score++;
+            }
+            
             //if contionions to display the strength of password based on the score password gained
             if (score == 0) { passwordStrength = strengthDesc[0]; }
             if (score == 1) { passwordStrength = strengthDesc[1]; }
